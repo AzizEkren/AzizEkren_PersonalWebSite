@@ -20,7 +20,7 @@ function Projects() {
         </div>
         
         <div className="project-item">
-          <h3>E-Commerce Platform</h3>
+          <h3>AI-Powered Educational App</h3>
           <p className="tech">Kotlin,Tensorflow,Firebase</p>
           <p className="description">
           This mobile application aims to simplify student tracking for tutoring
