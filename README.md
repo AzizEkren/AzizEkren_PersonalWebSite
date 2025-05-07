@@ -1,12 +1,32 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built using **React**. It showcases my background, skills, and projects, and serves as an online presence for potential employers, collaborators, or anyone interested in my work.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [View Website Here](https://azizekren.vercel.app/)
 
-## Expanding the ESLint configuration
+> Replace the link above with your actual deployed site link (e.g., GitHub Pages, Vercel, Netlify, etc.).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React  
+- JavaScript (ES6+)  
+- React Router  
+
+
+## 📦 Installation & Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/AzizEkren/AzizEkren_PersonalWebSite
+
+# Navigate to the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
