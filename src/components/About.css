@@ -1,0 +1,192 @@
+.about-fullpage {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #e6f1ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  background-color: #0a192f;
+}
+
+.about-main-content {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-image-section {
+  flex: 0 0 auto;
+  width: 250px;
+}
+
+.profile-image-section img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info-section {
+  flex: 1;
+}
+
+.profile-bio {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #8892b0;
+  margin-bottom: 1.25rem;
+}
+
+.personal-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.info-icon {
+  font-size: 1.5rem;
+  color: #64ffda;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #64ffda;
+  margin-bottom: 0.18rem;
+  font-size: 1.05rem;
+}
+
+.info-value {
+  color: #8892b0;
+  font-size: 1.05rem;
+}
+
+/* Interests Section */
+.interests-section {
+  margin-top: 0.5rem;
+}
+
+.interests-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.interests-header h2 {
+  font-size: 1rem;
+  color: #ccd6f6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.header-line {
+  flex: 1;
+  height: 1px;
+  background-color: rgba(100, 255, 218, 0.3);
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+
+.interest-box {
+  background-color: rgba(17, 34, 64, 0.85);
+  padding: 0.35rem 0.2rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(100, 255, 218, 0.08);
+  text-align: center;
+  min-height: 54px;
+  min-width: 0;
+}
+
+.interest-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.13);
+  border-color: rgba(100,255,218,0.18);
+}
+
+.interest-icon-container {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.18rem;
+}
+
+.interest-icon-container > span {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.interest-icon-container > svg {
+  width: 28px !important;
+  height: 28px !important;
+  display: block;
+}
+
+.interest-title {
+  font-size: 0.72rem;
+  color: #ccd6f6;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+
+@media (max-width: 992px) {
+  .about-fullpage {
+    height: auto;
+  }
+
+  .about-main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .profile-image-section {
+    width: 250px;
+  }
+  
+  .interests-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+} 

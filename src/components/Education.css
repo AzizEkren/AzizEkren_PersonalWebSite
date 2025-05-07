@@ -1,0 +1,178 @@
+.education-section {
+  padding: 1.2rem 0 2rem 0;
+}
+
+.section.education-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  margin-bottom: 48px;
+}
+
+.education-section h2 {
+  font-size: 2rem;
+  color: #64ffda;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(100, 255, 218, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.education-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.education-item:last-child {
+  border-bottom: none;
+}
+
+.education-item h3 {
+  color: #ccd6f6;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  color: #64ffda;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.year {
+  color: #8892b0;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.description {
+  color: #8892b0;
+  line-height: 1.6;
+}
+
+.edu-cards-container, .edu-card, .edu-logo, .edu-card-content { display: unset !important; background: unset !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin: 0 !important; }
+
+.edu-main-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.edu-main-logo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.edu-main-info {
+  flex: 1;
+}
+
+.edu-main-info h3 {
+  color: #ccd6f6;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.edu-main-info .institution {
+  color: #64ffda;
+  font-size: 1.08rem;
+  margin-bottom: 0.1rem;
+}
+
+.edu-main-info .year {
+  color: #8892b0;
+  font-style: italic;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}
+
+.edu-main-info .description {
+  color: #8892b0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.edu-main-info ul {
+  margin: 0.2rem 0 0 1.2rem;
+  padding: 0;
+  color: #ccd6f6;
+  font-size: 1rem;
+}
+
+.edu-main-info li {
+  margin-bottom: 0.1rem;
+}
+
+.cert-title {
+  font-size: 1.1rem;
+  color: #ccd6f6;
+  margin: 2.5rem 0 1.2rem 0;
+  border-bottom: 1px solid rgba(100,255,218,0.2);
+  padding-bottom: 0.3rem;
+  letter-spacing: 1px;
+}
+
+.cert-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.cert-logo {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.cert-info {
+  flex: 1;
+}
+
+.cert-info h3 {
+  color: #ccd6f6;
+  font-size: 1.15rem;
+  margin-bottom: 0.2rem;
+}
+
+.cert-info .institution {
+  color: #64ffda;
+  font-size: 1.05rem;
+  margin-bottom: 0.1rem;
+}
+
+.cert-info .year {
+  color: #8892b0;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  font-size: 0.98rem;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: transform 0.2s;
+}
+.cert-link svg {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+.cert-link:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 4px #64ffda88);
+} 
