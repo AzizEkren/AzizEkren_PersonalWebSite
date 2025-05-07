@@ -14,7 +14,7 @@ function Contact() {
             <p><a href="mailto:azizekren18@gmail.com">azizekren18@gmail.com</a></p>
           </div>
           <div className="contact-item">
-            <h3>Telefon</h3>
+            <h3>Phone</h3>
             <p><a href="tel:+905537182116">+90 553 718 21 16</a></p>
           </div>
           <div className="contact-item">
