@@ -24,7 +24,7 @@ function Education() {
           <h3>Mobile Development with Kotlin</h3>
           <p className="institution">Udemy</p>
           <p className="year">2025</p>
-          <a className="cert-link" href="https://your-certificate-link.com" target="_blank" rel="noopener noreferrer" title="View Certificate">
+          <a className="cert-link" href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3e08f73c-20d6-4870-b2f4-93a0b2a35b5b.pdf" target="_blank" rel="noopener noreferrer" title="View Certificate">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#64ffda" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 1 7 7l-1 1a5 5 0 0 1-7-7"/><path d="M14 11a5 5 0 0 0-7-7l-1 1a5 5 0 0 0 7 7"/><line x1="8" y1="16" x2="16" y2="8"/></svg>
           </a>
         </div>
