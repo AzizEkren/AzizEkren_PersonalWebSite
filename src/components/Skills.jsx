@@ -14,29 +14,50 @@ import githubLogo from '../assets/github.png';
 
 const skillsData = [
   {
-    title: 'Languages and Databases',
+    title: 'Languages',
     items: [
+      { name: 'JavaScript', logo: jsLogo },
+      { name: 'TypeScript', emoji: '🔷' },
       { name: 'Kotlin', logo: kotlinLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'JavaScript', logo: jsLogo },
+      { name: 'Python', emoji: '🐍' },
+    ],
+  },
+  {
+    title: 'Frontend',
+    items: [
+      { name: 'React', logo: reactLogo },
+      { name: 'React Native', logo: reactNativeLogo },
+      { name: 'Expo', emoji: '📱' },
+      { name: 'HTML/CSS', emoji: '🎨' },
+    ],
+  },
+  {
+    title: 'Backend & Databases',
+    items: [
+      { name: 'Node.js', logo: nodejsLogo },
+      { name: 'Express.js', emoji: '⚡' },
+      { name: 'PostgreSQL', emoji: '🐘' },
+      { name: 'Prisma ORM', emoji: '◆' },
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'MongoDB', emoji: '🍃' },
       { name: 'Firebase', logo: firebaseLogo },
     ],
   },
   {
-    title: 'Frameworks',
+    title: 'AI & Machine Learning',
     items: [
-      { name: 'Node.js', logo: nodejsLogo },
       { name: 'TensorFlow', logo: tensorflowLogo },
-      { name: 'React', logo: reactLogo },
-      { name: 'React Native', logo: reactNativeLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: 'DevOps & Tools',
     items: [
+      { name: 'Docker', emoji: '🐳' },
+      { name: 'Nginx', emoji: '🌐' },
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
+      { name: 'Linux', emoji: '🐧' },
     ],
   },
 ];
@@ -52,7 +73,13 @@ function Skills() {
             <div className="skills-logos-row">
               {category.items.map((item, i) => (
                 <div className="skill-logo-item" key={i}>
-                  <img src={item.logo} alt={item.name} className="skill-logo-img" />
+                  {item.logo ? (
+                    <img src={item.logo} alt={item.name} className="skill-logo-img" />
+                  ) : (
+                    <div className="skill-emoji-box">
+                      <span>{item.emoji}</span>
+                    </div>
+                  )}
                   <span className="skill-logo-name">{item.name}</span>
                 </div>
               ))}
@@ -64,4 +91,4 @@ function Skills() {
   );
 }
 
-export default Skills; 
+export default Skills;

@@ -7,7 +7,7 @@ function Home() {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const textArray = ['Computer Engineer', 'Coder', 'Mobile Developer'];
+  const textArray = ['Full-Stack Developer', 'Mobile Developer', 'Software Engineer'];
   const period = 2000;
 
   useEffect(() => {

@@ -12,7 +12,7 @@ function Education() {
         <div className="edu-main-info">
           <h3>Bachelor of Computer Engineering</h3>
           <p className="institution">Süleyman Demirel University</p>
-          <p className="year">2022 - Present</p>
+          <p className="year">2022 - 2026</p>
           <div className="description">
           </div>
         </div>
